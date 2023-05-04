@@ -1,24 +1,19 @@
-# README
+# Gossip App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Instructions
 
-Things you may want to cover:
+The user journey is as follows: on this great social network, a user will sign up, provide their first and last name, email and age, and then specify their city with a search by postal code.
 
-* Ruby version
+They will then have all the features that will make this app a future Bitchin'Tech unicorn:
 
-* System dependencies
+* Users can create gossip: "I heard John is single hihi"
+* Users, when creating gossip, can add one or more tags to the gossip: #romance
+* Users can comment on gossip: "ahiii I didn't know lol 💁‍♂️"
+* And since your app must respect industry standards, it will also be possible to comment on comments
+* Users can like gossip
+* Users can contact their favorite gossips via DM to get world exclusives
+* The user can search for gossip by city, user, date (most recent or oldest), number of likes, tags, to find the juiciest gossip
 
-* Configuration
+## Data model
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![alt text](https://github.com/camillelenormand/The-Gossip-Project-DB/blob/main/public/GossipAppDiagram.png?raw=true)
