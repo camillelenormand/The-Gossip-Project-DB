@@ -43,8 +43,8 @@ require 'faker'
 
 # puts "Private Messages created!"
 
-100.times do
-   users = Recipient.create!([{ user_id: Faker::Number.between(from: 1, to: 100) , private_message_id: Faker::Number.between(from: 1, to: 100) }])
-end
+# 100.times do
+#    users = Recipient.create!([{ user_id: Faker::Number.between(from: 1, to: 100) , private_message_id: Faker::Number.between(from: 1, to: 100) }])
+# end
 
-puts "Recipients created!"
+# puts "Recipients created!"
